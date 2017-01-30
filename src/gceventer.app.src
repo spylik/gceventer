@@ -1,0 +1,9 @@
+{application,gceventer,
+             [{description,"General purpose periodical garbage collector for erlang nodes"},
+              {vsn,"0.0.2"},
+              {id,"git"},
+              {modules,[]},
+              {registered,[gceventer]},
+              {applications,[kernel,stdlib]},
+              {mod,{gceventer_app,[]}},
+              {env,[]}]}.
